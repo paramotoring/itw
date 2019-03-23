@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.27.240.184:5000/paramotoring/itw
+  tag: 0.0.9
   pullPolicy: IfNotPresent
 service:
   name: itw
